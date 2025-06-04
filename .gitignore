@@ -1,0 +1,21 @@
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+
+# 忽略日志
+*.log
+
+# 忽略虚拟环境
+venv/
+.env/
+
+# 忽略本地配置
+*.local
+.DS_Store
+
+# 忽略模型、数据或大文件（按需）
+checkpoints/
+*.ckpt
+*.pt
+*.h5
+data/
